@@ -17,7 +17,7 @@ try {
     require_once '../src/Service/MenuGeneratorService.php';
 
     // 2. API Key & DB
-    $GEMINI_API_KEY = "AIzaSyBP7tm5iqJCUlfNj9rSDOYWhOSMhy08zwQ"; // <--- ISI KEY
+    $GEMINI_API_KEY = ""; // <--- ISI KEY
     
     $database = new Database();
     $db = $database->getConnection();
